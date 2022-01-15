@@ -505,6 +505,10 @@ section {
   overflow: hidden;
   z-index: 1;
 }
+.portfolio .portfolio-wrap img {
+  height: 231px;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
