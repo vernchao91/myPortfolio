@@ -368,7 +368,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 100px;
   display: block;
   background: none;
   border-radius: 0;
@@ -396,6 +396,21 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+.centering {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-icon-wrap {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.skill-icon {
+  font-size: 50px;
+}
+
 
 /*--------------------------------------------------------------
 # Resume
